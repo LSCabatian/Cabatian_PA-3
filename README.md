@@ -74,10 +74,10 @@ Model	cyl	hp	wt	vs	gear
 4	Hornet Sportabout	8	175	3.440	0	3
 
 #Print the row for the model "Mazda RW4 Wag
-cars.loc[[1]]
+cars.loc[[0]]
 
 Model	mpg	cyl	disp	hp	drat	wt	qsec	vs	am	gear	carb
-1	Mazda RX4 Wag	21.0	6	160.0	110	3.9	2.875	17.02	0	1	4	4
+0	Mazda RX4	21.0	6	160.0	110	3.9	2.62	16.46	0	1	4	4
 
 #Print the cyl value for car model "Camaro Z28" 
 cars.loc[[23],['cyl']]
